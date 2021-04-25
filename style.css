@@ -1,0 +1,49 @@
+body {
+    background-color:yellow;
+    }
+    p{
+    font-size:2em;
+    margin-left:3em;
+    text-shadow:0px 0px 10px black;
+    color:blue;
+    animation-name:ba;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    }
+    @keyframes ba{
+    0%{color:blue;}
+    25%{color:purple;}
+    50%{color:pink;}
+    75%{color:ellow;}
+    100%{color:orange;}
+    }
+    .bu{
+    font-size:1.5em;
+    color:red;
+    text-shadow:0px 0px 10px black;
+    font-family:sans-serif;
+    }
+    .mu{
+    width:7em;
+    height:5em;
+    background-color:purple;
+    margin-left:7em;
+    margin-top:5em;
+    border-radius:0.5em;
+    }
+    .pi{
+    margin-left:1em;
+    
+    color:coral;
+    font-size:1.5em;
+    }
+    button{
+    margin-top:1em;
+    background-color:orangered;
+    animation-name:ba;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    border-radius:1em;
+    width:5em;
+    height:3em;
+    }
